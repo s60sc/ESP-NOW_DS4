@@ -10,7 +10,7 @@
 // Sender is standalone and hosts the USB connection to DS4, sending the input over ESP-NOW o the receiver
 // Receiver hosts the user app, eg drone, that receives the controller input over ESP-NOW
 
-//#define ESPNOW_SENDER // comment out for Receiver
+#define ESPNOW_SENDER // comment out for Receiver
 
 #define USE_SECURE true // set to true to add encryption, false for plaintext
 
